@@ -1,0 +1,708 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Global CSS */
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+ /* navigation bar section */
+#navbar{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-around;
+  align-items: center;
+  padding: 8px 0px;
+  background-color: #FFFFFF;
+  height: auto;
+  width: 100%;
+}
+.nav-logo img{
+  height: 50px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.nav-links a:hover {
+  color:#1fae34;
+}
+
+.button-section{
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button-section .login{
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: #F1F1F1;
+  border: none;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+
+
+}
+
+.button-section .get-started{
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: #000000;
+  border: none;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.button-section img{
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+  cursor: pointer;
+
+}
+/* form section design */
+
+#form-div{
+  background-image: url(images/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+background-size: cover;
+position: relative;
+
+}
+.form{
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 250px;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+.form.select{
+  background-color: #ECECEC;
+  border: none;
+  width: 60%;
+}
+.form select{
+  padding: 8px 10px;
+  width: 20%;
+  margin-left: 10px;
+  border-radius: 10px;
+background-color: #ECECEC;
+border: none;
+font-size: 16px;
+
+}
+.input-button{
+  margin-top: 20px;
+  width: 60%;
+}
+
+.form  input{
+  padding: 8px 30px ;
+width: 60%;
+border-radius: 10px;
+border: none;
+background-color: #ECECEC;
+font-size: 16px;
+outline: none;
+
+}
+.form input:focus{
+  outline: 1px solid #1ca475;
+}
+.form  button{
+  background-color: #00EBC7;
+  padding: 8px 25px;
+  border-radius: 20px;
+  border: none;
+font-size: 16px;
+width: 30%;
+cursor: pointer;
+}
+
+.form h1{
+  margin: 25px auto;
+
+}
+
+.question{
+  position: absolute;
+  text-align: center;
+  top: 600px;
+  bottom: 0 ;
+  right: 0;
+  left: 0;
+}
+.question span{
+  border: 1px solid #FFFFFF;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Logo and text  section */
+
+
+#logo-text-section{
+  background-color:#FDE24F ;
+  width: 100%;
+  text-align: center;
+  height: 230px;
+  
+}
+#logo-text-section h2{
+  padding: 50px  0 ;
+}
+.logo{
+  width: 100%;
+  display: flex;
+
+}
+.logo img{
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+}
+
+/* features Section */
+#feature-section{
+  width: 100%;
+  object-fit: cover;
+}
+.feature-text{
+  margin-top: 50px;
+  margin-left: 40px;
+ 
+}
+.features{
+  width: 100%;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.features img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.features h3{
+  margin-bottom: 15px;
+  position: relative;
+
+}
+.features p{
+  font-size: 16px;
+  color: #535353;
+  margin-bottom: 30px;
+
+}
+.features a{
+  color: black;
+  font-size: 16px;
+  text-underline-offset: 4px;
+
+}
+
+#button{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#button button{
+  padding: 8px 15px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  font-size: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+
+}
+.hr-1{
+  position: absolute;
+  width: 150px;
+  bottom: 10px;
+  left: 280px;
+  background-color: #000000;
+  height: 2px;
+  margin: 0 auto;
+
+}
+.hr-2{
+  position: absolute;
+  width: 150px;
+  bottom: 10px;
+  left: 230px;
+  background-color: #000000;
+  height: 2px;
+  margin: 0 auto;
+
+}
+
+/* This is buy and sell section */
+ .buy-sell-section{
+  width: 100%;
+  background-color:  #F8F8F8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #000000;
+
+  border-bottom: 1px solid #000000;
+
+  height: 460px;
+  gap: 20px;
+
+}
+
+.buy-sell-section img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+ .zella , .paypal , .wire{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #000000 ;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.buy , .sell{
+  width: 100%;
+  height: 460px;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ 
+  
+}
+.divider{
+  width: 4px;
+  height: 100%;
+  background-color: #000000;
+}
+
+
+
+.item1 , .item2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+ #text-buy , #text-sell{
+  display: inline-block;
+  font-size: 25px;
+} 
+ .buy button{
+  padding: 5px 15px;
+  border-radius: 10px ;
+  background-color:#000000 ;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.sell button{
+  padding: 5px 15px;
+  border-radius: 10px ;
+  background-color:#000000 ;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+
+}  
+
+/* This is section two  */
+ .article-button{
+  width: 100%;
+  height: 380px;
+  background-color: #CFBAFF;
+  text-align: center;
+}
+.article-button button{
+  color: white;
+  background-color: #000000;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+.article-button h1{
+font-size: 40px;
+padding: 100px 20px;
+}
+  /* Footer */
+  .hyperlinks {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 3rem 5vw;
+    width: 100%;
+  }
+  
+
+  
+  .links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .links a:hover {
+    color:#1fae34;
+  }
+  
+  .copyright {
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    width: 100%;
+  }
+  
+  .copyright h6 {
+    font-size: 0.8rem;
+  }
+   
+
+
+
+  /* Responsive Design*/
+  @media (max-width: 750px) {
+   
+     /* navigation bar section */
+
+    .nav-logo img{
+      height: 30px;
+      width: 100px;
+     
+    }
+    
+    .nav-links{
+     display: none;
+    }
+    .button-section{
+      gap: 4px;
+    }
+    .button-section .login{
+      padding: 5px 8px;
+      font-size: 14px;
+    }
+    
+    .button-section .get-started{
+    padding: 5px 8px;
+    font-size: 14px;
+      
+    
+    }
+    
+    .button-section img{
+      height: 25px;
+      width: 25px;
+   
+    }
+    /* form section design */
+  
+    #form-div{
+      height: 800px;
+      width: 100%;
+
+
+    }
+    .form{
+       height: 550px;
+       border-radius: 25px;
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+    }
+   
+   .form .select{
+    width: 80%;
+   }
+    .form select{
+      width: 100%;
+    display: block;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    }
+    .input-button{
+      width: 80%;
+    }
+    
+    .form  input{
+      padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    }
+    
+    .form  button{
+      width: 100%;
+      font-size: 16px;
+      padding: 10px;
+    margin-left: 12px;
+
+    }
+    
+    .form h1{
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+    }
+
+    .question{
+    
+      top: 730px;
+     
+    }
+    .question span{
+      padding: 10px;
+      border-radius: 25px;
+      font-size: 14px;
+    }
+    
+    /* Logo and text  section */
+    
+    #logo-text-section h2{
+      padding: 40px  20px;
+    }
+  
+    .logo img{
+      width: 50px;
+      height: 50px;
+    }
+    
+    /* features Section */
+    #feature-section{
+      height: 1100px;
+      border-bottom: 1px solid black;
+    }
+    .feature-text{
+      margin-top: 50px;
+      margin-left: 40px;
+     
+    }
+    .features{
+      width: 100%;
+      margin: 60px auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 60px;
+    }
+    
+    .features img{
+      width: 50px;
+      height: 50px;
+      
+    }
+    
+    .features a{
+      font-size: 14px;
+    
+    }
+    
+    #button{
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+    #button button{
+      padding: 10px ;
+      font-size: 14px;
+      border-radius: 25px;
+    
+    }
+    .hr-1{
+     display: none;
+    }
+    .hr-2{
+      display: none;
+    }
+    
+    /* This is buy and sell section */
+     .buy-sell-section{
+    height: 1000px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-top: none;
+      gap: 10px;
+    
+    }
+    
+    
+    .buy-sell-section img{
+      width: 40px;
+     height: 40px;
+    }
+    
+ 
+     .zella , .paypal , .wire{
+      gap: 8px;
+      padding: 10px;
+     
+    }
+    
+    .buy{
+      height: 450px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 3rem;
+      border-bottom: 1px solid black;
+
+     
+      
+    }
+    .sell{
+      height: 450px;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 3rem;
+
+    }
+    
+.item1 , .item2{
+ font-size: 14px;
+}
+
+    .divider{
+     display: none;
+    }
+    
+    
+     #text-buy , #text-sell{
+      display: inline-block;
+      font-size: 25px;
+    } 
+     .buy button{
+      padding: 8px 16px ;
+    
+    }
+    .sell button{
+      padding: 8px 16px ;
+    }  
+    
+    /*  section two  */
+     .article-button{
+      height: 500px;
+    }
+    .article-button button{
+      padding: 8px 15px;
+      font-size: 16px;
+      width: 200px;
+    }
+ 
+      /* Footer */
+      footer{
+        width: 100%;
+        height: auto;
+        background-color: #000000;
+      }
+      .hyperlinks{
+        display: block;
+        text-align: center;
+      }
+      
+    .spacio{
+     margin: 30px auto;
+    }
+    .spacio img{
+        width: 200px;
+        height: 50px;
+        object-fit: cover;
+    }
+     .links{
+     margin: 30px auto;
+
+    } 
+  }
+
+
+ @media (max-width: 1280px){
+  .hr-1{
+    width: 100px;
+
+   }
+   .hr-2{
+     width: 100px;
+   }
+ }
+
+ @media (max-width: 1145px){
+  .hr-1{
+    display: none;
+   }
+   .hr-2{
+     display: none;
+   }
+ }
+
+ @media (max-width: 847px){
+  .form  button{
+    padding: 8px 15px;
+  }
+  
+ }

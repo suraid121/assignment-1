@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Online Crypto Shop</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <!-- This is navigation bar-->    
+    <nav id="navbar">
+      <div class="nav-logo">
+        <img src="Images/Logo.png">
+        
+      </div>
+      <div class="nav-links">
+        <a href="#">Buy</a>
+        <a href="#">Sell</a>
+        <a href="#">Create an offer</a>
+        
+      </div>
+      <div class="button-section">
+        <button class="login">Login</button>
+        <button class="get-started">Get started</button>
+        <img src="Images/Frame.png" >
+      </div>
+      </nav>
+
+      <!-- This is form section -->
+       <div id="form-div">
+        <form class="form">
+          <h1>Find your offer ✨</h1>
+          
+     <div class="select">
+      <select name="currency" required>
+        <option value="" >Currency</option>
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+        <option value="btc">BTC</option>
+      </select>
+  
+      <select name="type" required>
+        <option value="" >Buy</option>
+        <option value="buy">Buy</option>
+        <option value="sell">Sell</option>
+      </select>
+  
+      <select name="payment" required>
+        <option value="" >Payment</option>
+        <option value="paypal">PayPal</option>
+        <option value="card">Credit Card</option>
+      </select>
+  
+      <select name="outputCurrency" required>
+        <option value="" >Currency</option>
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+      </select>
+     </div>
+
+   <div class="input-button">
+    <input type="number" name="amount" placeholder="How much" required>
+    <button type="submit">Find offer</button><br>
+   
+   </div>
+
+        </form>
+        <div class="question">
+          <span>Why Zappr?</span>
+        </div>
+      </div>
+
+      <!-- Logo and text  section -->
+      
+      <div id="logo-text-section">
+        <h2>Buy/Sell the favorites with <em>No Fees*</em></h2>
+          <div class="logo">
+            <img src="Images/Ethereum (ETH).png">
+        <img src="Images/Tether (USDT).png">
+        <img src="Images/Cardano (ADA).png">
+        <img src="Images/Binance Coin (BNB).png">
+        <img src="Images/Polygon (MATIC).png">
+        <img src="Images/Chainlink (LINK).png">
+          </div>
+        </div>
+
+        <!-- features Section -->
+
+<section id="feature-section">
+  <h2 class="feature-text">Features: We think about you</h2>
+
+  <section class="features">
+ <div>
+
+   <img src="Images/SecureEscrow.png">
+
+   <h3>Secured by Escrow
+    <hr class="hr-1">
+   </h3>
+  
+   <p>We always think <br> for your <br> security</p>
+   <a href="#">Learn more how we secure you</a>
+ </div>
+ <div>
+
+    <img src="Images/NewbieFriendly.png">
+
+    <h3>Newbie Friendly
+      <hr class="hr-2">
+    </h3>
+
+    <p>We always think<br>about your<br>needs</p>
+    <a href="#">Know about this</a>
+
+ </div>
+ <div>
+
+   <img src="Images/MultiplePayments.png">
+   <h3>120+ Payment Method</h3>
+   <p>There are many <br> options of <br> payment</p>
+   <a href="#">Learn about our payment option</a>
+ </div>
+
+  </section>
+  <div id="button">
+       <button id="feature-button">See full features</button>
+  </div>
+</section>
+
+
+<!-- This is buy and sell section -->
+ <section class="buy-sell-section">
+<div class="buy">
+ <div>
+  <span id="text-buy">Buy</span>
+ </div>
+ <div>
+  <div class="item1">
+    <div class="zella">
+      <img src="images/Component 1.png" alt="">
+      <span>Zelle, 1+</span>
+      <span>30,244.12 USD/BTC</span>
+      <span>$10-200$</span>
+
+    </div>
+    <div class="paypal">
+      <img src="images/Component 2.png" alt="">
+      <span>Paypal</span>
+      <span>30,244.12 USD/BTC</span>
+      <span>$5-1K$</span>
+    </div>
+    <div class="wire">
+      <img src="images/Component 3.png" alt="">
+      <span>Wire</span>
+      <span>330,244.12 USD/BTC</span>
+      <span>$100-3K$</span>
+    </div>
+  </div>
+
+ </div>
+ <div>
+  <button>View buy’s offers</button>
+ </div>
+
+</div>
+<div class="divider"></div>
+<div class="sell">
+  <div> <span id="text-sell">Sell</span> </div>
+  <div>
+    <div class="item2">
+
+      <div class="zella">
+        <img src="images/Component 1.png" alt="">
+        <span>Zelle, 1+</span>
+        <span>30,244.12 USD/BTC</span>
+        <span>$10-200$</span>
+  
+      </div>
+      <div class="paypal">
+        <img src="images/Component 2.png" alt="">
+        <span>Paypal</span>
+        <span>30,244.12 USD/BTC</span>
+        <span>$5-1K$</span>
+      </div>
+      <div class="wire">
+        <img src="images/Component 3.png" alt="">
+        <span>Wire</span>
+        <span>330,244.12 USD/BTC</span>
+        <span>$100-3K$</span>
+      </div>
+    </div>
+  
+  </div>
+  <div>
+    <button>View sell’s offers</button>
+  </div>
+</div>
+ </section>
+ <!-- This is section two -->
+ <div class="article-button">
+  <h1>Sign up and buy or sell crypto in 5 minutes with zero commission fees</h1>
+  <button>Get started</button>
+</div>
+<!--This is footer section -->
+
+
+<footer>
+  <div class="hyperlinks">
+    <div class="spacio">
+      <img src="Images/spacio.png">
+    </div>
+    <div class="links">
+    <h2>
+        Product
+      </h2>
+     <a href="#">Sell Bitcoin</a>
+     <a href="#">Buy Bitcoin</a> 
+     <a href="#">Sell Ethereum</a> 
+     <a href="#">Buy Ethereum</a> 
+     <a href="#">Sell Solana</a> 
+     <a href="#">Buy Solana</a> 
+     <a href="#">Features</a>
+    </div>
+    <div class="links">
+      <h2>About spacio</h2>
+      <a href="#">About us</a>
+      <a href="#">Fess</a>
+      <a href="#">Careers</a>
+      <a href="#">Rewards Program</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Condition</a>
+    </div>
+    <div class="links">
+      <h2>
+        Support
+      </h2>
+      <a href="#">Moderators</a>
+      <a href="#">Contact Support</a>
+      <a href="#">FAQ</a>
+      <a href="#">Help Center</a>
+      <a href="#">Community</a>
+      <a href="#">Security</a>
+      
+    </div>
+  </div>
+  
+    <div class="copyright">
+      <h6>“SPACI0” is a registered trademark of Logic0x, Ltd. Copyright © 2022 Logic0x, Ltd. All Rights Reserved. Paxful Inc. has no relation to MoneyGram, Western Union, Payoneer, WorldRemit, Paxum, Paypal, Amazon, OkPay, Payza, Walmart, Reloadit, Perfect Money, WebMoney, Google Wallet, BlueBird, Serve, Square Cash, NetSpend, Chase QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller, Venmo, Apple, ChimpChange or any other payment method. We make no claims about being supported by or supporting these services. Their respective wordmarks and trademarks belong to them alone. Official mailing address: 3422 Old Capitol Trail, PMB 989, Wilmington DE 19808</h6>
+    </div>
+</footer>
+
+
+
+  </body>
+</html>
